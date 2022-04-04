@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;1,400;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6fe09d8959.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>Final Project</title>
+</head>
+<body>
+  <aside class="menu">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i><br> Home</a></li>
+        <!-- <li><a href="#">Home</a></li> -->
+        <li><a href="#about"><i class="fa-solid fa-user-large"></i><br>About</a></li>
+        <!-- <li><a href="#">About</a></li> -->
+        <li><a href="#main-hero"><i class="fa-solid fa-paintbrush"></i><br>Gallery</a></li>
+        <!-- <li><a href="#">Gallery</a></li> -->
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i><br>Contact</a></li>
+        <!-- <li><a href="#">Contact</a></li> -->
+      </ul>
+    </nav>
+  </aside>
+  <header>
+    <h1>&nbsp; Art of <br>  Leonard &nbsp;</h1>
+  </header>
+  <section class="about" id="about">
+    <h2>About</h2>
+
+    <div class="profile-pic"></div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi pariatur facilis voluptatem omnis quis, debitis est minus ut quae quas voluptate sint nemo maiores amet, sapiente ab error nulla deserunt porro? Incidunt ipsam ut beatae, amet itaque cupiditate reiciendis possimus quo eligendi fugiat omnis quod placeat assumenda alias unde tempora voluptatibus dignissimos, quia non ducimus, voluptates facilis atque aut. Quae rerum sapiente facere dolore quasi fuga impedit eaque voluptas fugiat totam voluptatibus a soluta adipisci, eum quaerat consectetur aperiam nulla atque veniam doloremque excepturi. Ducimus earum rerum mollitia qui, accusamus magnam temporibus blanditiis odio numquam sint distinctio suscipit facilis sapiente quam officiis voluptates expedita eligendi quidem! Aut qui est aliquid laboriosam, voluptates ab illo maxime iusto explicabo laborum soluta facilis accusamus dolorum labore minus? Aliquid consequatur ratione pariatur incidunt minus nam vel consequuntur molestias commodi nemo illo repellat id, mollitia quam ad eligendi sunt ipsam labore rerum suscipit impedit dolore animi aspernatur iure eius. Perspiciatis harum optio consectetur obcaecati quam, delectus libero commodi! Quam quisquam eos deserunt alias dicta incidunt laudantium cupiditate, aliquam odit quas temporibus dolorem minus quae totam. Cumque at sit provident distinctio, doloremque reprehenderit error fugit officia explicabo, tempore adipisci sint ex, aspernatur, nihil. At, voluptatem soluta.
+    </p>
+  </section>
+  <hr>
+
+
+  <main class="main-hero" id="main-hero">
+    <h2>Gallery</h2>
+
+    <!-- slideshow gallery-->
+      <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="Images/waitingForTheRiot.jpg" style="width:100%">
+        <div class="text">Waiting for the riot</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 8</div>
+        <img src="Images/Abby.jpeg" style="width:100%">
+        <div class="text">Abby</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="Images/tattooartist.jpg" style="width:100%">
+        <div class="text">The Tattoo Artist</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="Images/musician.jpg" style="width:100%">
+        <div class="text">The Musician</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="Images/theLionOfFitzRoy.jpeg" style="width:100%">
+        <div class="text">The lion of Fitzroy</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="Images/Pisco.jpeg" style="width:100%">
+        <div class="text">Pisco</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="Images/Maggie.jpg" style="width:100%">
+        <div class="text">Maggie</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="Images/tarotreader.jpg" style="width:100%">
+        <div class="text">The Tarot Reader</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+
+    <div class="container">
+      <div class="gallery">
+        <figure id="img1" class="gallery__item gallery__item-1">
+          <img src="images/waitingForTheRiot.jpg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img2" class="gallery__item gallery__item-3">
+          <img src="images/Abby.jpeg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img3" class="gallery__item gallery__item-4">
+          <img src="Images/tattooartist.jpg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img4" class="gallery__item gallery__item-5">
+          <img src="Images/musician.jpg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img5" class="gallery__item gallery__item-6">
+          <img src="Images/theLionOfFitzRoy.jpeg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img6" class="gallery__item gallery__item-7">
+          <img src="Images/Pisco.jpeg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img7" class="gallery__item gallery__item-8">
+         <img src="Images/Maggie.jpg" class="gallery__img" alt="Image 1">
+        </figure>
+        <figure id="img8" class="gallery__item gallery__item-9">
+          <img src="Images/tarotreader.jpg" class="gallery__img" alt="Image 1">
+        </figure>
+      </div>
+    </div>
+    <div class="modals">
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/waitingForTheRiot.jpg" alt="">
+        </div>
+      </div>
+      <!-- <div id="modal2">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/Abby.jpeg" alt="">
+        </div>
+      </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/tattooartist.jpg" alt="">
+        </div>
+      </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/musician.jpg" alt="">
+        </div>
+      </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/theLionOfFitzRoy.jpeg" alt="">
+        </div>
+      </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/Pisco.jpeg" alt="">
+        </div>
+      </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/Maggie.jpg" alt="">
+        </div>
+      </div>
+      <div id="modal">
+        <div class="modal-content">
+          <span id="close-modal">X</span>
+          <img src="Images/tarotreader.jpg" alt="">
+        </div>
+      </div> -->
+    </div>
+
+    <!-- gallery  -->
+  </main>
+  <hr>
+  <footer class="contact" id="contact">
+    <h2>Contact Leonard</h2>
+    <form id="contact-form">
+      <fieldset>
+        <!-- <legend>Contact Leo</legend> -->
+          <label for="full-name">Name</label>
+          <input type="text" id="full-name" placeholder="Your name here" required>
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="e.g.: name@email.com" required>
+          <label for="textapalooza">Leave your message here</label>
+          <textarea id="textarea-1"></textarea>
+          <!-- <button class="submit">Submit</button> -->
+          <div>
+            <input class="submit" type="submit" value="Submit">
+          </div>
+      </fieldset>
+    </form>
+    <!-- contact me -->
+  </footer>
+</body>
+<script>
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+const openModalButton = document.getElementById('img1');
+const closeModalButton = document.getElementById('close-modal');
+function toggleModal() {
+  document.getElementById('modal').classList.toggle('visible');
+}
+openModalButton.addEventListener('click', toggleModal);
+closeModalButton.addEventListener('click', toggleModal);
+
+
+
+document.getElementById('contact-form').addEventListener('submit', validateForm);
+
+function validateForm(event) {
+  event.preventDefault();
+  const firstName = document.getElementById('full-name').value;
+  if (firstName.length < 1) {
+    alert("Insert a name, please")
+  }
+}
+</script>
+</html>
