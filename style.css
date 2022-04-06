@@ -16,7 +16,6 @@
     align-content: baseline;
     justify-content: space-evenly;
     list-style: none;
-    /* flex-direction: row; */
     margin: 0;
     padding: 0;
   }
@@ -416,11 +415,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 800px;
+    max-width: 500px;
     position: relative;
   }
   .modal-content > img {
     width:100%;
+  }
+  #caption{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 25px;
   }
   #close-modal {
     cursor: pointer;

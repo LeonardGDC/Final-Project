@@ -16,26 +16,31 @@
   <title>Final Project</title>
 </head>
 <body>
+
+  <!-- Menu: On top in full size version, bottom for less than 1070-->
+
   <aside class="menu">
     <nav class="navbar">
-      <ul>
+      <ul class= "menu-buttons">
         <li><a href="#"><i class="fa-solid fa-house"></i><br> Home</a></li>
-        <!-- <li><a href="#">Home</a></li> -->
         <li><a href="#about"><i class="fa-solid fa-user-large"></i><br>About</a></li>
-        <!-- <li><a href="#">About</a></li> -->
         <li><a href="#main-hero"><i class="fa-solid fa-paintbrush"></i><br>Gallery</a></li>
-        <!-- <li><a href="#">Gallery</a></li> -->
         <li><a href="#contact"><i class="fa-solid fa-envelope"></i><br>Contact</a></li>
-        <!-- <li><a href="#">Contact</a></li> -->
       </ul>
     </nav>
   </aside>
+
+  <!-- Header: Polaroid picture and animated h1 -->
+
   <header>
     <h1>&nbsp; Art of <br>  Leonard &nbsp;</h1>
   </header>
+  <hr>
+
+  <!-- About: Biography and info -->
+
   <section class="about" id="about">
     <h2>About</h2>
-
     <div class="profile-pic"></div>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi pariatur facilis voluptatem omnis quis, debitis est minus ut quae quas voluptate sint nemo maiores amet, sapiente ab error nulla deserunt porro? Incidunt ipsam ut beatae, amet itaque cupiditate reiciendis possimus quo eligendi fugiat omnis quod placeat assumenda alias unde tempora voluptatibus dignissimos, quia non ducimus, voluptates facilis atque aut. Quae rerum sapiente facere dolore quasi fuga impedit eaque voluptas fugiat totam voluptatibus a soluta adipisci, eum quaerat consectetur aperiam nulla atque veniam doloremque excepturi. Ducimus earum rerum mollitia qui, accusamus magnam temporibus blanditiis odio numquam sint distinctio suscipit facilis sapiente quam officiis voluptates expedita eligendi quidem! Aut qui est aliquid laboriosam, voluptates ab illo maxime iusto explicabo laborum soluta facilis accusamus dolorum labore minus? Aliquid consequatur ratione pariatur incidunt minus nam vel consequuntur molestias commodi nemo illo repellat id, mollitia quam ad eligendi sunt ipsam labore rerum suscipit impedit dolore animi aspernatur iure eius. Perspiciatis harum optio consectetur obcaecati quam, delectus libero commodi! Quam quisquam eos deserunt alias dicta incidunt laudantium cupiditate, aliquam odit quas temporibus dolorem minus quae totam. Cumque at sit provident distinctio, doloremque reprehenderit error fugit officia explicabo, tempore adipisci sint ex, aspernatur, nihil. At, voluptatem soluta.
@@ -43,11 +48,13 @@
   </section>
   <hr>
 
+<!-- Gallery: Main and hero section. Pop up modal for each image in full size
+and slideshow gallery in less than 1070 -->
 
   <main class="main-hero" id="main-hero">
     <h2>Gallery</h2>
 
-    <!-- slideshow gallery-->
+      <!-- slideshow gallery-->
       <div class="slideshow-container">
 
       <!-- Full-width images with number and caption text -->
@@ -117,158 +124,68 @@
       <span class="dot" onclick="currentSlide(8)"></span>
     </div>
 
+    <!-- Image gallery -->
     <div class="container">
       <div class="gallery">
         <figure id="img1" class="gallery__item gallery__item-1">
-          <img src="images/waitingForTheRiot.jpg" class="gallery__img" alt="Image 1">
+          <img src="images/waitingForTheRiot.jpg" class="gallery__img" alt="Waiting for the riot">
         </figure>
         <figure id="img2" class="gallery__item gallery__item-3">
-          <img src="images/Abby.jpeg" class="gallery__img" alt="Image 1">
+          <img src="images/Abby.jpeg" class="gallery__img" alt="Abby">
         </figure>
         <figure id="img3" class="gallery__item gallery__item-4">
-          <img src="Images/tattooartist.jpg" class="gallery__img" alt="Image 1">
+          <img src="Images/tattooartist.jpg" class="gallery__img" alt="The tattoo artist">
         </figure>
         <figure id="img4" class="gallery__item gallery__item-5">
-          <img src="Images/musician.jpg" class="gallery__img" alt="Image 1">
+          <img src="Images/musician.jpg" class="gallery__img" alt="The musician">
         </figure>
         <figure id="img5" class="gallery__item gallery__item-6">
-          <img src="Images/theLionOfFitzRoy.jpeg" class="gallery__img" alt="Image 1">
+          <img src="Images/theLionOfFitzRoy.jpeg" class="gallery__img" alt="The lion of Fitzroy">
         </figure>
         <figure id="img6" class="gallery__item gallery__item-7">
-          <img src="Images/Pisco.jpeg" class="gallery__img" alt="Image 1">
+          <img src="Images/Pisco.jpeg" class="gallery__img" alt="Pisco">
         </figure>
         <figure id="img7" class="gallery__item gallery__item-8">
-         <img src="Images/Maggie.jpg" class="gallery__img" alt="Image 1">
+         <img src="Images/Maggie.jpg" class="gallery__img" alt="Maggie">
         </figure>
         <figure id="img8" class="gallery__item gallery__item-9">
-          <img src="Images/tarotreader.jpg" class="gallery__img" alt="Image 1">
+          <img src="Images/tarotreader.jpg" class="gallery__img" alt="The tarot reader">
         </figure>
       </div>
     </div>
+
+    <!-- modal box -->
     <div class="modals">
       <div id="modal">
         <div class="modal-content">
           <span id="close-modal">X</span>
-          <img src="Images/waitingForTheRiot.jpg" alt="">
+          <img class="modal-image" id="image" src"" alt"">
+          <div id="caption"></div>
         </div>
       </div>
-      <!-- <div id="modal2">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/Abby.jpeg" alt="">
-        </div>
-      </div>
-      <div id="modal">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/tattooartist.jpg" alt="">
-        </div>
-      </div>
-      <div id="modal">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/musician.jpg" alt="">
-        </div>
-      </div>
-      <div id="modal">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/theLionOfFitzRoy.jpeg" alt="">
-        </div>
-      </div>
-      <div id="modal">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/Pisco.jpeg" alt="">
-        </div>
-      </div>
-      <div id="modal">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/Maggie.jpg" alt="">
-        </div>
-      </div>
-      <div id="modal">
-        <div class="modal-content">
-          <span id="close-modal">X</span>
-          <img src="Images/tarotreader.jpg" alt="">
-        </div>
-      </div> -->
     </div>
 
-    <!-- gallery  -->
   </main>
   <hr>
+
+  <!-- contact form -->
   <footer class="contact" id="contact">
     <h2>Contact Leonard</h2>
     <form id="contact-form">
       <fieldset>
-        <!-- <legend>Contact Leo</legend> -->
           <label for="full-name">Name</label>
           <input type="text" id="full-name" placeholder="Your name here" required>
           <label for="email">Email</label>
           <input type="text" id="email" placeholder="e.g.: name@email.com" required>
           <label for="textapalooza">Leave your message here</label>
           <textarea id="textarea-1"></textarea>
-          <!-- <button class="submit">Submit</button> -->
           <div>
             <input class="submit" type="submit" value="Submit">
           </div>
       </fieldset>
     </form>
-    <!-- contact me -->
   </footer>
+
 </body>
-<script>
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
-
-const openModalButton = document.getElementById('img1');
-const closeModalButton = document.getElementById('close-modal');
-function toggleModal() {
-  document.getElementById('modal').classList.toggle('visible');
-}
-openModalButton.addEventListener('click', toggleModal);
-closeModalButton.addEventListener('click', toggleModal);
-
-
-
-document.getElementById('contact-form').addEventListener('submit', validateForm);
-
-function validateForm(event) {
-  event.preventDefault();
-  const firstName = document.getElementById('full-name').value;
-  if (firstName.length < 1) {
-    alert("Insert a name, please")
-  }
-}
-</script>
+<script src=main.js></script>
 </html>
