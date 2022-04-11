@@ -84,7 +84,9 @@
     text-align: justify;
     font-size: 20px;
   }
-  * {box-sizing:border-box}
+  * {
+    box-sizing:border-box
+  }
 
   /* Slideshow gallery */
   .slideshow-container {
@@ -231,6 +233,7 @@
     background-color: white;
     display:block;
     box-shadow: 6px 0 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 0 0 -7px;
   }
   ul{
     display: flex;
